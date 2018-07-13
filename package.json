@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha server/**/*.test.js",
-    "test-watch": "nodemon --exec npm test"
+    "test-watch": "nodemon --exec npm test",
+    "query": "nodemon playground/mongoose-queries.js"
   },
   "author": "",
   "license": "ISC",
@@ -18,7 +19,7 @@
   "devDependencies": {
     "expect": "^1.20.2",
     "mocha": "^3.0.2",
-    "nodemon": "^1.10.2",
+    "nodemon": "^1.18.1",
     "supertest": "^2.0.0"
   }
 }
