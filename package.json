@@ -10,7 +10,8 @@
     "heroku": "heroku create",
     "herokuaddon": "heroku addons:create mongolab:sandbox",
     "herokulogin": "heroku login",
-    "herokucnfig": "heroku config"
+    "herokucnfig": "heroku config",
+    "herokulog":"heroku logs --tail"
   },
   "engines": {
     "node": "10.4.1"
